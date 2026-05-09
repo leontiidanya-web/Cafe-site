@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>   
+<div class="logo">Cafe</div>
+<ul class="nav-links">
+<li><a href="#home">Головна</a></li>
+<li><a href="#menu">Меню</a></li>
+<li><a href="#gallery">Галерея</a></li>
+<li><a href="#booking">Бронювання</a></li>
+</ul>
+</nav>
+<section id="home">
+<h1>Відчуй смак справжньої кави</h1>
+<p>Затишок, натхнення та бездоганний сервіс</p>
+<a href="#booking" class="btn">Забронювати столик</a>
+</section>
+
+<div class="about-strip">
+
+    <h2>Про нас</h2>
+    <p>Ми сворюємо не просто каву, а настрій. Завітайте до нас ближчим часом</p>
+</div>
+<section id="menu">
+<h2 class="section-title">Наше меню</h2>
+
+<p class="category-title">Кава</p>
+<div class="menu-grid">
+ <div class="menu-item"><span>Еспресо</span><span class="menu-price">45 грн</span></div>
+ <div class="menu-item"><span>Латте</span><span class="menu-price">80 грн</span></div>
+ <div class="menu-item"><span>Капучино</span><span class="menu-price">75 грн</span></div>
+ <div class="menu-item"><span>Какао</span><span class="menu-price">65 грн</span></div>
+ <div class="menu-item"><span>Мокка</span><span class="menu-price">70 грн</span></div>
+ <div class="menu-item"><span>Коризо</span><span class="menu-price">85 грн</span></div>
+
+</div>
+
+<p class="category-title">Десерти</p>
+<div class="menu-grid">
+ <div class="menu-item"><span>Круасан</span><span class="menu-price">45 грн</span></div>
+ <div class="menu-item"><span>Макарон</span><span class="menu-price">30 грн</span></div>
+ <div class="menu-item"><span>Шарлотка</span><span class="menu-price">75 грн</span></div>
+ <div class="menu-item"><span>Чізкейк</span><span class="menu-price">65 грн</span></div>
+
+</div>
+</section>
+    
+<section id="gallery">
+<h2 class="section-title">Атмосфера</h2>
+<div class="gallery-grid">
+<img src="image.png">
+
+
+</div>
+</section>
+
+<section id="booking">
+        <h2 class="section-title">Бронювання</h2>
+        <div class="booking-wrap">
+            <div class="booking-form-box">
+                <h2>Забронювати столик</h2>
+                <div class="form-group" style="margin-bottom:14px">
+        <label>Ваше ім'я</label>
+        <input type="text" placeholder="Введіть ім'я">
+      </div>
+
+      <div class="form-row">
+
+        <div class="form-group">
+          <label>Дата</label>
+          <input type="date">
+        </div>
+
+        <div class="form-group">
+          <label>Час</label>
+          <input type="time"  value="12:00">
+        </div>
+      </div>
+
+      <div class="form-group" style="margin-bottom:14px">
+        <label>Кількість гостей</label>
+        <div class="counter">
+          <input type="number" value="2" min="1" max="10">
+        </div>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" id="agreeCheck">
+        <label for="agreeCheck">Я згоден з правилами ресторану та умовами бронювання</label>
+      </div>
+
+      <button class="btn btn-full">Забронювати столик</button>
+      <p class="success-msg">✅ Ваш столик заброньовано! Чекаємо вас!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+  © 2026 Arôme Coffee. Всі права захищені.
+</footer>
+
+
+</section>
+</body>
+</html>
